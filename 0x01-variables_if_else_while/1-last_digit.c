@@ -5,8 +5,7 @@
 /**
  * main - The entry point of the program
  *
- * Description: This program will print the last digit of the number 
- * stored in the variable n
+ * Description: This program will print the last digit of the number stored in the variable n
  *
  * Return: Always 0 (Success)
 */
