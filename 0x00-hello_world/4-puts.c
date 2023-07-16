@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -Entry point of this program
- * 
- * Description - This program will print to the standard output using 'put'
+ * main - Entry point of the program
  *
- * Return: Always 0 (success)
+ * Description: This program will print to the standard output using 'put'
+ *
+ * Return: Always 0 (Success)
 */
 
 int main(void)
