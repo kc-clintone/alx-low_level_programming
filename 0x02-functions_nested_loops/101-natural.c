@@ -4,8 +4,6 @@
  * main - prints count of multiples of 3 or 5
  * under 1024
  *
- * @n: the multiples on test
- *
  * Return: 0
  *
 */
@@ -22,9 +20,3 @@ int main(void)
 	printf("%d\n", count);
 	return (0);
 }
-
-/**
- *
- *@count: the increment variable
- *
-*/
