@@ -11,6 +11,7 @@
 int main(void)
 {
 	unsigned long n = 0, n1 = 1, n2 = 0, sum = 0;
+
 	while (n2 <= 4000000)
 	{
 		n2 = n + n1;
