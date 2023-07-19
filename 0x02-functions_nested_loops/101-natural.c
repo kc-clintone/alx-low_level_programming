@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	int count, n= 0;
+	int count, n = 0;
 
 	for (n = 0; n < 1024; n++)
 	{
