@@ -5,7 +5,7 @@
  * a number to the standard output
  *
  * @i: the targeted value
- * 
+ *
  * Return: 0 (Success)
  *
 */
