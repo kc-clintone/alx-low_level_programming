@@ -6,6 +6,9 @@
  *
  * Return: 1 if a character is lowercase and 0
  * if a character is uppercase
+ *
+ * @c - is the function we are passing as the parameter
+ * for the check
 */
 
 int _islower(int c)
