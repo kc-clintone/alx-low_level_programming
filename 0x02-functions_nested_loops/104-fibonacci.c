@@ -11,7 +11,7 @@
 int main(void)
 {
 	int count;
-	long int const1 = 10000000000, const2 = 9999999999;
+	unsigned long const1 = 10000000000, const2 = 9999999999;
 	unsigned long n = 0, n1 = 1, n2;
 	unsigned long a1, a2, b1, b2;
 	unsigned long a, b;
