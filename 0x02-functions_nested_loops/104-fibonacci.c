@@ -15,7 +15,7 @@ int main(void)
 	unsigned long n = 0, n1 = 1, n2;
 	unsigned long a1, a2, b1, b2;
 	unsigned long a, b;
-	
+
 	for (count = 0; count < 92; count++)
 	{
 		n2 = n + n1;
