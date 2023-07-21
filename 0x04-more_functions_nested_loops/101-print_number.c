@@ -9,32 +9,16 @@
 
 void print_number(int n)
 {
-	if (n == 0)
-	{
-		_putchar('0');
-		return;
-	}
+	unsigned int number = n;
+
 	if (n < 0)
 	{
 		_putchar('-');
-		n = -n;
+		number = -number;
 	}
-
-	int reversed = 0;
-
-	while (n > 0)
+	if (number > 9)
 	{
-		int digit = n % 10;
-
-		reversed = reversed * 10 + digit;
-		n /= 10;
+		print_number(number / 10);
 	}
-	while (reversed > 0)
-	{
-		int digit = reversed % 10;
-
-		_putchar(digit + '0');
-		reversed /= 10;
-	}
+	_putchar(number % 10 + '0');
 }
-

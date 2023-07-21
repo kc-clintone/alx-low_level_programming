@@ -1,33 +1,30 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a right-angled
- * triangle using '#'
- *
- * @size: function parameter
- *
- * Return: nothing
- */
+* print_triangle - draws a triangle to the
+* standard output
+*
+* @size: function parameter
+*
+*Return: nothing
+*/
 
 void print_triangle(int size)
 {
-	if (size <= 0)
-		return;
-	for (int row = 1; row <= size; row++)
-	{
-		int spaces = size - row;
-		int hashes = row;
-		while (spaces > 0)
-		{
-			_putchar(' ');
-			spaces--;
-		}
-		while (hashes > 0)
-		{
-			_putchar('#');
-			hashes--;
-		}
-		_putchar('\n');
-	}
-}
+	int i, j;
 
+	if (size > 0)
+	{
+		for (i = 1; i <= size; i++)
+		{
+			for ((j = size - i); j > 0; j--)
+				_putchar(' ');
+			for (j = 0; j < i; j++)
+				_putchar('#');
+			if (i == size)
+				continue;
+			_putchar('\n');
+		}
+	}
+	_putchar('\n');
+}
