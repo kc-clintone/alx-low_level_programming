@@ -19,15 +19,15 @@ _putchar('\n');
 }
 
 /**
- *
- * _strlen - this returns length of the string
+ * _strlen - returns length of the string
  *
  * @s: the string parameter
  *
  * Return: lenght
  *
+ * Description: _strlen prints the length of a string
+ *
  */
-
 int _strlen(char *s)
 {
 int count, j;
