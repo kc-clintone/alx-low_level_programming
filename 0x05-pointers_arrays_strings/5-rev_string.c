@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-* rev_string - a function that
-* reverses a string
+* rev_string - Reverses a string
 *
-* @s: the string parameter on target
+* @s: the string to reverse
 *
-* Return: othing
+* Return: nothing
 */
 void rev_string(char *s)
 {
@@ -21,27 +20,27 @@ length--;
 }
 
 /**
- * _strlen - returns the length of a string
+ * _strlen - tis function returns
+ * the length of a string
  *
- * @s: string parameter
+ * @s: string
  *
- * Return: s;
+ * Return: returns lenght;
  */
 int _strlen(char *s)
 {
-int count, y;
-y = 0;
+int count, inc;
+inc = 0;
 for (count = 0; s[count] != '\0'; count++)
-y++;
+inc++;
 
-return (y);
+return (inc);
 }
 
 /**
-* swap_char - this func swaps two characters
+* swap_char - swaps two characters
 *
-* @a: the first char
-*
+* @a: the first character
 * @b: the second character
 *
 * Return: nothing
