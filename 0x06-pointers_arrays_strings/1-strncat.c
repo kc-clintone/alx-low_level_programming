@@ -21,5 +21,5 @@ while (dest[i++])
 	dest_len++;
 for (i = 0; i < n && src[i] != '\0' ; i++)
 	dest[dest_len++] = src[i];
-return dest;
+return (dest);
 }
