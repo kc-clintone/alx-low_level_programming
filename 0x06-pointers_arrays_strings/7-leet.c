@@ -15,7 +15,8 @@ while (str[i])
 {
 for (j = 0; j < 8; j++)
 {
-if (str[i] == leet[j] || (str[i] >= 'a' && str[i] <= 'z' && str[i] - 32 == leet[j]))
+if (str[i] == leet[j] || (str[i] >= 'a' && str[i] <= 'z'
+&& str[i] - 32 == leet[j]))
 {
 str[i] = j + '0';
 break;
@@ -23,6 +24,6 @@ break;
 }
 i++;
 }
-return str;
+return (str);
 }
 
