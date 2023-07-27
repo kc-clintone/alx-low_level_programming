@@ -1,37 +1,38 @@
 #include "main.h"
 #include <stdbool.h>
 
-/**
-* cap_string - this capitalizes first letter of every
-* word
-*
-* @str: target string
-* Return: Results
+/*
+ * *cap_string - capitalizes te first letter of a
+ * word in a given string
+ *
+ * @str: points to the char parameter
+ *
+ * Return: *str
 */
+
+bool is_separator(char c) {
+    return (c == ' ' || c == '\t' || c == '\n' || c == ',' || c == ';' || c == '.' ||
+            c == '!' || c == '?' || c == '"' || c == '(' || c == ')' || c == '{' ||
+            c == '}');
+}
 
 char *cap_string(char *str)
 {
-	int index = 0;
+bool should_capitalize = true;
+int i;
 
-	while (str[++index])
-	{
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-			index++;
-
-		if (str[index - 1] == ' ' ||
-				str[index - 1] == '\t' ||
-				str[index - 1] == '\n' ||
-				str[index - 1] == ',' ||
-				str[index - 1] == ';' ||
-				str[index - 1] == '.' ||
-				str[index - 1] == '!' ||
-				str[index - 1] == '?' ||
-				str[index - 1] == '"' ||
-				str[index - 1] == '(' ||
-				str[index - 1] == ')' ||
-				str[index - 1] == '{' ||
-				str[index - 1] == '}')
-			str[index] -= 32;
-	}
-	return (str);
+for (i = 0; str[i]; i++)
+{
+if (should_capitalize && str[i] >= 'a' && str[i] <= 'z')
+{
+str[i] -= 32;
 }
+should_capitalize = is_separator(str[i]);
+if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
+{
+str[i] -= 32;
+}
+}
+return (str);
+}
+
