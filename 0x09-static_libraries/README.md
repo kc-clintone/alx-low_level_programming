@@ -1,1 +1,1 @@
-Static library in C
+Introduction to libraries in C progrmming
