@@ -35,4 +35,3 @@ cents %= coins[i];
 printf("%d\n", num_coins);
 return (0);
 }
-
