@@ -1,8 +1,7 @@
-c
-
-main.o
-
+# Ignore main.c and main.s
+main.c
 main.s
 
-main.c
-
+# Ignore executable files
+*.out
+c
