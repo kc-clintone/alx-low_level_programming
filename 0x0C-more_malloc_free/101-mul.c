@@ -4,10 +4,10 @@
 #include <ctype.h>
 
 /**
- * _is_zero - determines if any number is zero
+ * _is_zero - checks for a zero
  * @argv: argument vector.
  *
- * Return: no return.
+ * Return: nothing
  */
 void _is_zero(char *argv[])
 {
@@ -35,8 +35,8 @@ void _is_zero(char *argv[])
 }
 
 /**
- * _initialize_array - set memery to zero in a new array
- * @ar: char array.
+ * _initialize_array - sets the  memory to zero in
+ * @ar: the char array
  * @lar: length of the char array.
  *
  * Return: pointer of a char array.
@@ -52,8 +52,8 @@ char *_initialize_array(char *ar, int lar)
 }
 
 /**
- * _checknum - determines length of the number
- * and checks if number is in base 10.
+ * _checknum - determines the length of the number
+ * and checks if is base 10.
  * @argv: arguments vector.
  * @n: row of the array.
  *
