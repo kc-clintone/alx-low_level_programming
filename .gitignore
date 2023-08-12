@@ -1,7 +1,1 @@
-# Ignore main.c and main.s
-/0x00-hello_world/main.c
-/0x00-hello_world/main.s
-
-# Ignore executable files
-/0x00-hello_world/*.out
-/0x00-hello_world/c
+README.md
