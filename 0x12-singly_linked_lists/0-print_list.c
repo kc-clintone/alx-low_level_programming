@@ -1,9 +1,8 @@
 #include "lists.h"
 /**
- * print_list - prints the elements in a list
- * @counter: head
- * @str: the targer string
- *
+ * print_list - prints the elements of a list
+ * @h: points to list head
+ * Return: elements of head (node)
 */
 size_t print_list(const list_t *h)
 {
@@ -17,6 +16,6 @@ head->str != NULL
 counter++;
 head = head->next;
 }
-return counter;
+return (counter);
 }
 ~
