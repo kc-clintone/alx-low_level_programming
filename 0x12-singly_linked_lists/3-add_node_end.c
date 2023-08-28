@@ -21,10 +21,10 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (!newNode->str)
 	{
 		free(newNode);
-		return NULL;
+		return (NULL);
 	}
 	newNode->len = strlen(str);
-	newNode->next = NULL;
+	newNode->next = (NULL);
 	if (!(*head))
 	{
 		*head = newNode;
@@ -40,4 +40,3 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	return (newNode);
 }
-
