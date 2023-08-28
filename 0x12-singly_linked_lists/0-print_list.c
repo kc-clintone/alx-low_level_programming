@@ -10,7 +10,7 @@ size_t counter = 0;
 const list_t *head = h;
 while (head != NULL)
 {
-if(head->str != NULL)
+if (head->str != NULL)
 printf("[%d] %s\n", head->len, head->str);
 else
 printf("[0] (nil)\n");
