@@ -27,4 +27,3 @@ void free_list(list_t *head);
 void __attribute__((constructor)) _func(void);
 
 #endif
-~
