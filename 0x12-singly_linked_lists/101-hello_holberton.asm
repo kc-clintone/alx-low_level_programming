@@ -1,5 +1,5 @@
 section .data
-    hello db "Hello, Holberton,", 0
+    hello db "Hello, Holberton", 0
     format db "%s", 10, 0   ; Format string for printf with newline
 
 section .text
