@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flip_bits_recursive - Counts the number of bits needed
+ * flipRecursive - Counts the number of bits needed
  * to flip recursively.
  * @n: The first unsigned long int.
  * @m: The second unsigned long int.
