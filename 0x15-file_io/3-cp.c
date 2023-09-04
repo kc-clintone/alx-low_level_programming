@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _copyfn - Entry point for the cp program.
+ * main - Entry point for the cp program.
  * @argc: The number of command-line arguments.
  * @argv: An array of strings containing the command-line
  * arguments.
