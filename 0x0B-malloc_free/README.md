@@ -26,12 +26,16 @@ In dynamic memory allocation, memory is allocated from the heap, which is a regi
 C provides several functions for dynamic memory allocation:
 
 - `malloc(size_t size)`: Allocates a block of memory of the specified size in bytes and returns a pointer to the first byte of the block.
-  ![Malloc](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.BHxFjk9_eeXiPVmUjoOYtgAAAA%26pid%3DApi&f=1&ipt=166e5ab088a4d022f39e741565bb7dba19712436c9ff5ea64ac0236080058c76&ipo=images)
+
+![Malloc](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.BHxFjk9_eeXiPVmUjoOYtgAAAA%26pid%3DApi&f=1&ipt=166e5ab088a4d022f39e741565bb7dba19712436c9ff5ea64ac0236080058c76&ipo=images)
+
 - `calloc(size_t num, size_t size)`: Allocates memory for an array of elements with a specified size, initializes all bytes to zero, and returns a pointer to the first byte of the block.
-  ![Calloc](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.XasZ3ojcsefPioj3fOfSZwHaCj%26pid%3DApi&f=1&ipt=bc65506979b6d76a28f703edcf93d060b34906c18b0abb0ef819c0cdb43bab54&ipo=images)
+
+![Calloc](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.XasZ3ojcsefPioj3fOfSZwHaCj%26pid%3DApi&f=1&ipt=bc65506979b6d76a28f703edcf93d060b34906c18b0abb0ef819c0cdb43bab54&ipo=images)
 
 - `realloc(void *ptr, size_t size)`: Resizes a previously allocated block of memory to the specified size and returns a pointer to the first byte of the resized block.
-  ![Realloc](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kXElNFNagOfmVDhEC-crdAHaEK%26pid%3DApi&f=1&ipt=e94f038a9b7dc6c175d87acc0ebcdef003793df40bdd9725f4253990463cffcd&ipo=images)
+
+![Realloc](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kXElNFNagOfmVDhEC-crdAHaEK%26pid%3DApi&f=1&ipt=e94f038a9b7dc6c175d87acc0ebcdef003793df40bdd9725f4253990463cffcd&ipo=images)
 
 ## Allocating Memory
 
