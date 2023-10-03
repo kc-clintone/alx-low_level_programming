@@ -1,7 +1,7 @@
 
 ![variadic functions in c](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-F5XUb19Xjko%2FYCVl67bctII%2FAAAAAAAASNA%2FDWY_Wo7Kk9gWFmPspkCAmCmxwNCXxXSQgCLcBGAsYHQ%2Fs2048%2Fhackerrank-variadic-functions-in-c-programing-solution.png&f=1&nofb=1&ipt=b2153ae47118c5d87c5b0b9a452968866e6ccf8fcad94bc35675f441e06043dd&ipo=images)
 
-# Project: 0x10-variadic_functions
+# 0x10-variadic_functions
 
 ## Table of Contents
 
