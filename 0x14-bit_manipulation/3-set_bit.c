@@ -16,7 +16,7 @@ unsigned long int maskvalue = 1 << index;
 if (index >= sizeof(unsigned long int) * 8)
 return (-1);
 /** Set the bit at the index to 1 using bitwise */
-*n = *n | mask;
+*n = *n | maskvalue;
 return (1);
 }
 
