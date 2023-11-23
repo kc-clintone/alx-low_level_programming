@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include main.h
+#include "main.h"
 
 /**
  * bin_to_uint - a function that converts a binary number
@@ -11,7 +11,7 @@
  * there is one or more chars in the string b that is not 0 or 1
  * b is NULL
 */
-unsigned int bin_to_uint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 unsigned int result = 0;
 int counter = 0;
