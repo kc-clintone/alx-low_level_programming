@@ -30,6 +30,7 @@ To use the functions in this project, follow these steps:
 ## Usage
 
 0-binary_to_uint.c
+
 This file contains a function unsigned int binary_to_uint(const char *b) that converts a binary string to an unsigned integer.
 
 Usage example:
@@ -46,3 +47,9 @@ int main()
     return 0;
 }
 ```
+
+2-get_bit.c
+
+This file contains a function int get_bit(unsigned long int n, unsigned int index) that returns the value of a bit at a given index.
+
+Usage example:
