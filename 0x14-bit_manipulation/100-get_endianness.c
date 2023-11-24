@@ -12,8 +12,6 @@ unsigned int numbr = 1;
 unsigned char *byte_pointer = (unsigned char *)&numbr;
 unsigned int final_byte_value = *byte_pointer;
 
-/** Here, I Use bit manipulation to check the least
-significant bit (LSB) */
 return ((final_byte_value == 1) ? 1 : 0);
 }
 
