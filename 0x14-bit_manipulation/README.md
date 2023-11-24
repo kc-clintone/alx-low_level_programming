@@ -1,6 +1,6 @@
 # 0x14-bit_manipulation
 
-![https://www.cronj.com/blog/wp-content/uploads/bit-manipulation.png]
+![bitman](https://www.cronj.com/blog/wp-content/uploads/bit-manipulation.png)
 
 ## Description
 
