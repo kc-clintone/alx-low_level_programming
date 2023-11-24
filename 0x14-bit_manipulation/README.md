@@ -1,6 +1,6 @@
 # 0x14-bit_manipulation
 
-![https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.rAnjB3VvWCNl0LctslJK8AHaED%26pid%3DApi&f=1&ipt=37d2dc0545a8b9666ae80d13e64da430233e7ba9ce5153303fce4980d20238e6&ipo=images]
+![https://www.cronj.com/blog/wp-content/uploads/bit-manipulation.png]
 
 ## Description
 
