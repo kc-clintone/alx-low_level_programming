@@ -3,6 +3,7 @@
 
 #define BUFFER_SIZE 1024
 
+#include <elf.h>
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
