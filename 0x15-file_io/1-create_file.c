@@ -8,26 +8,25 @@
  *
  * Return: 1 on success, -1 on failure.
 */
-int create_file(const char *filename, char *text_content) {
-    if (filename == NULL) {
-        return -1;
-    }
-
-    int fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600); // rw-------
-    
-    if (fd == -1) {
-        return -1; // Failed to create or open the file
-    }
-
-    if (text_content != NULL) {
-        ssize_t bytes_written = write(fd, text_content, strlen(text_content));
-        if (bytes_written == -1) {
-            close(fd);
-            return -1; // Write failed
-        }
-    }
-
-    close(fd);
-    return 1; // Success
+int create_file(const char *filename, char *text_content)
+{
+int file_descriptor;
+ssize_t bw;
+if (filename == NULL)
+return (-1);
+file_descriptor = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+if (file_descriptor == -1)
+return (-1);
+if (text_content != NULL)
+{
+bw = write(file_descriptor, text_content, strlen(text_content));
+if (bw == -1)
+{
+close(file_descriptor);
+return (-1);
+}
+}
+close(file_descriptor);
+return (1);
 }
 
