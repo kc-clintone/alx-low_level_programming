@@ -1,6 +1,9 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+#define BUFFER_SIZE 1024
+
+#include <errno.h>
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
