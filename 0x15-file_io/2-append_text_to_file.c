@@ -1,12 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <fcntl.h>
-#include <unistd.h>
-
+#include "main.h"
 /**
- * append_text_to_file - Appends text to the end of a file.
+ * append_text_to_file - this function appends text to the end of
+ * a file.
  * @filename: The name of the file to append to.
- * @text_content: The NULL-terminated string to add at the end of the file.
+ * @text_content: The NULL-terminated string to add at the end of
+ * the file.
  *
  * Return: 1 on success, -1 on failure.
  */
@@ -17,7 +15,7 @@ ssize_t bw;
 
 if (filename == NULL)
 return (-1);
-if (fd == -1)
+if (file_desc == -1)
 return (-1);
 if (text_content != NULL)
 bw = write(file_desc, text_content, strlen(text_content));
