@@ -12,21 +12,21 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
+size_t i;
 char bfr;
 ssize_t b_in = 0;
+FILE *file = fopen(filename, "r");
 
 if (filename == NULL)
 return (0);
-
-FILE *file = fopen(filename, "r");
 if (file == NULL)
 return (0);
 
-for (size_t i = 0; i < letters; i++)
+for (i = 0; i < letters; i++)
 {
 if (fread(&bfr, sizeof(char), 1, file) != 1)
 break;
-putchar(bfrr);
+putchar(bfr);
 b_in++;
 }
 fclose(file);
