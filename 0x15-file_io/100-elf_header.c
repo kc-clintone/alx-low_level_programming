@@ -1,7 +1,8 @@
 #include "main.h"
-/**                                                                     * print_error - Print an error message and exit with status 98.
+/**
+ * print_error - Print an error message and exit status
  * @message: The error message to be printed.
- */
+*/
 void print_error(const char *message)
 {
 fprintf(stderr, "%s\n", message);
@@ -24,13 +25,20 @@ printf("  Magic:   ");
 for (i = 0; i < EI_NIDENT; i++)
 printf("%02x ", header->e_ident[i]);
 printf("\n");
-printf("Class:                             %s\n", (header->e_ident[EI_CLASS] == ELFCLASS32) ? "ELF32" : "ELF64");
-printf("Data:                              %s\n", (header->e_ident[EI_DATA] == ELFDATA2LSB) ? "2's complement, little endian" : "2's complement, big endian");
-printf("Version:                           %d (current)\n", (header->e_ident[EI_VERSION]));
-printf("OS/ABI:                            %d\n", (header->e_ident[EI_OSABI]));
-printf("ABI Version:                       %d\n", (header->e_ident[EI_ABIVERSION]));
-printf("Type:                              %s\n", (type_index >= 0 && type_index < 5) ? type_str[type_index] : "Unknown");
-printf("Entry point address:               0x%lx\n", (unsigned long)header->e_entry);
+printf("Class:			%s\n",
+(header->e_ident[EI_CLASS] == ELFCLASS32) ? "ELF32" : "ELF64");
+printf("Data:			%s\n",
+(header->e_ident[EI_DATA] == ELFDATA2LSB) ? "2's complement, little endian" : "2's complement, big endian");
+printf("Version:		%d (current)\n",
+(header->e_ident[EI_VERSION]));
+printf("OS/ABI:			%d\n",
+(header->e_ident[EI_OSABI]));
+printf("ABI Version:		%d\n",
+(header->e_ident[EI_ABIVERSION]));
+printf("Type:			%s\n",
+(type_index >= 0 && type_index < 5) ? type_str[type_index] : "Unknown");
+printf("Entry point address:	0x%lx\n",
+(unsigned long)header->e_entry);
 }
 
 /**
