@@ -11,7 +11,7 @@ int index;
 
 _hash = 5381;
 while ((index = *str++))
-_hash = ((_hash << 5) + _hash) + index;
+_hash = ((_hash << 5) + _hash) +index;
 return (_hash);
 }
 
