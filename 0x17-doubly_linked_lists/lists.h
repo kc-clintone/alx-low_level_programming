@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**====prototypes====*/
-
+size_t print_dlistint(const dlistint_t *h);
 
 /**=====The base DS to be used=====*/
 
