@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <unistd.h>
 /**----all the func prototypes*/
 
 int _putchar(char c);
