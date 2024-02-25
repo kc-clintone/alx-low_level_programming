@@ -15,7 +15,7 @@ unsigned long int x, count;
 if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 return (0);
 _copy = strdup(value);
-if (value_copy == NULL)
+if (_copy == NULL)
 return (0);
 x = key_index((const unsigned char *)key, ht->size);
 for (count = x; ht->array[count]; count++)
