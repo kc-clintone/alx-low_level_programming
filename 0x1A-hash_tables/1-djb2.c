@@ -12,6 +12,6 @@ int index;
 
 constant = 5381;
 while ((index = *str++))
-constant = ((constant << 5) + constant) + index;
+constant = ((constant << 5) + constant) +index;
 return (constant);
 }
