@@ -2,6 +2,9 @@
 /**
  * before - a function that  executes before the main function does
 */
+void __attribute__((constructor)) before(void);
+
+
 void before(void)
 {
 printf("You're beat! and yet, you must allow,\n");
