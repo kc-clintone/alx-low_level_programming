@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-
 /**
  * struct skiplist_s - Singly linked list with an express >
  *
@@ -43,5 +42,5 @@ typedef struct listint_s
 /**prototypes*/
 int linear_search(int *arr, size_t x, int y);
 int binary_search(int *arr, size_t x, int y);
-
+size_t min(size_t x, size_t y);
 #endif /* SEARCH_ALGOS_H */
