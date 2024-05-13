@@ -38,8 +38,8 @@ return (x <= y ? x : y);
 /**
  * bsh - This function searches for a value in an
  * integer array using a binary search algorithm
- * @array: Pointer to first element
- * @value: Target value
+ * @arr: Pointer to first element
+ * @v: Target value
  * @x: start index
  * @y: last index
  * Return: `value`, or -1 or NULL
