@@ -1,32 +1,31 @@
 #include "search_algos.h"
-
 /**
  * binary_search - This function searches an array of
  * inters using binary search algo
  *
- * @arr: Pointer to first element of target array
- * @x: Elements in array
- * @y: Target value
+ * @array: Pointer to first element of target array
+ * @size: Elements in array
+ * @value: Target value
  * Return: Index with `value`, | -1 if `value` not found |
  * `array` is NULL
 */
-int binary_search(int *arr, size_t x, int y)
+int binary_search(int *array, size_t size, int value)
 {
 int i, j, k, m;
 
-if (arr == NULL)
+if (array == NULL)
 return (-1);
 i = 0;
-k = x - 1;
+k = size - 1;
 while (i <= k)
 {
 j = (i + k) / 2;
 printf("Searching array: ");
-for (m = i; x <= k; m++)
-printf("%i%s", arr[m], m == k ? "\n" : ", ");
-if (arr[j] < x)
+for (m = i; size <= k; m++)
+printf("%i%s", array[m], m == k ? "\n" : ", ");
+if (array[j] < size)
 i = j + 1;
-else if (arr[j] > x)
+else if (array[j] > size)
 k = j - 1;
 else
 return (j);
