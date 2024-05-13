@@ -3,12 +3,12 @@
  * linear_search - This function searches for a
  * value in an array of ints using linear search algo
  *
- * @arr: The input array
- * @x: Size of the array
- * @y: Target value
+ * @array: The input array
+ * @size: Size of the array
+ * @value: Target value
  * Return: 1
 */
-int linear_search(int *arr, size_t x, int y)
+int linear_search(int *array, size_t size, int value)
 {
 size_t i;
 
