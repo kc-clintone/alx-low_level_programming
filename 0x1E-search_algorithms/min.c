@@ -1,3 +1,4 @@
+#include "search_algos.h"
 /**
  * min - Returns the minumum of two values
  * @x: Target value
