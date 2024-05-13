@@ -15,8 +15,7 @@ if (!array || size == 0)
 return (-1);
 while (b < size && array[b] < value)
 {
-printf("Value checked array[%lu] = [%d]\n",
-b , array[b]);
+printf("Value checked array[%lu] = [%d]\n", b, array[b]);
 b *= 2;
 }
 x = b / 2;
