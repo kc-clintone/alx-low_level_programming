@@ -23,7 +23,7 @@ j = (i + k) / 2;
 printf("Searching array: ");
 for (m = i; m <= k; m++)
 printf("%i%s", array[m], m == k ? "\n" : ", ");
-if (array[j] < size)
+if (array[j] < value)
 i = j + 1;
 else if (array[j] > value)
 k = j - 1;
