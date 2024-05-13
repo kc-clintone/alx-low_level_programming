@@ -43,6 +43,9 @@ typedef struct listint_s
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
 int interpolation_search(int *array, size_t size, int value);
+int interpolation_search(int *array, size_t size, int value);
+int exponential_search(int *array, size_t size, int value);
 size_t min(size_t x, size_t y);
-
+int bsh(int *arr, int v, size_t x, size_t y);
+int bsr(int *arr, int v, size_t x, size_t y);
 #endif /* SEARCH_ALGOS_H */
