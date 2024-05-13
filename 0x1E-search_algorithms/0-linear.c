@@ -12,12 +12,12 @@ int linear_search(int *array, size_t size, int value)
 {
 size_t i;
 
-if (arr == NULL)
+if (array == NULL)
 return (-1);
-for (i = 0; i < x; i++)
+for (i = 0; i < size; i++)
 {
-printf("Array checked[%li] = [%i]\n", i, arr[i]);
-if (arr[i] == x)
+printf("Array checked[%li] = [%i]\n", i, array[i]);
+if (array[i] == value)
 return (i);
 }
 return (-1);
