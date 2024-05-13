@@ -21,7 +21,7 @@ while (i <= k)
 {
 j = (i + k) / 2;
 printf("Searching array: ");
-for (m = i; size <= k; m++)
+for (m = i; m <= k; m++)
 printf("%i%s", array[m], m == k ? "\n" : ", ");
 if (array[j] < size)
 i = j + 1;
