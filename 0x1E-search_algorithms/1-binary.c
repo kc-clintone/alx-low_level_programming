@@ -25,7 +25,7 @@ for (m = i; size <= k; m++)
 printf("%i%s", array[m], m == k ? "\n" : ", ");
 if (array[j] < size)
 i = j + 1;
-else if (array[j] > size)
+else if (array[j] > value)
 k = j - 1;
 else
 return (j);
