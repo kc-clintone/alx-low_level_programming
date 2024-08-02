@@ -37,6 +37,5 @@ h = m - 1;
 else if (value > array[m])
 l = m + 1;
 }
-
 return (-1);
 }
